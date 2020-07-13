@@ -1,0 +1,8 @@
+.env
+*.git
+*.spyproject
+__pycache__
+venv/*
+*.db
+logs/*
+migrations/*
