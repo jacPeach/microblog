@@ -23,3 +23,4 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     ADMINS = ["jacobpeach@outlook.com.com"]
     POSTS_PER_PAGE = 3
+    LOG_TO_STDOUT = os.environ.get("LOG_TO_STDOUT")
